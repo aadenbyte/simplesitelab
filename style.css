@@ -3,8 +3,46 @@ html {
   width: 100%;
 }
 
-p {
-  color: red;
-  font-weight: bold;
+body {
+  background: lightskyblue;
+  border: 3px solid limegreen;
 }
 
+header > h1 {
+  color: white;
+  font-family: 'Noto Serif Hebrew', sans-serif;
+  font-size: 25px;
+  font-style: italic;
+  text-align: center;
+}
+
+header > nav {
+  font-family: 'Noto Serif Hebrew', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+}
+
+div > h1 {
+  color: white;
+  font-family: 'Noto Serif Hebrew', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#floated {
+  float: right;
+}
+
+p {
+  color: white;
+  font-family: 'Noto Serif Hebrew', sans-serif;
+  font-size: 15px;
+}
+
+nav {
+  font-family: 'Noto Serif Hebrew', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+}
